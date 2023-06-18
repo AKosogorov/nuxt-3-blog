@@ -323,7 +323,7 @@ div#preloader {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -364,7 +364,8 @@ div#preloader {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover>a,
+.navbar .router-link-exact-active {
   color: #3ec1d5;
 }
 
@@ -434,7 +435,7 @@ div#preloader {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
