@@ -9,8 +9,8 @@ export default defineNuxtConfig({
       ],
       link: [
         // Favicons
-        { rel: 'icon', href: 'img/favicon.png' },
-        { rel: 'apple-touch-icon', href: 'img/apple-touch-icon.png' },
+        { rel: 'icon', href: '/img/favicon.png' },
+        { rel: 'apple-touch-icon', href: '/img/apple-touch-icon.png' },
 
         // Google Fonts
         {
@@ -19,15 +19,15 @@ export default defineNuxtConfig({
         },
 
         // Vendor CSS Files
-        { href: 'vendor/animate.css/animate.min.css', rel: 'stylesheet' },
-        { href: 'vendor/bootstrap/css/bootstrap.min.css', rel: 'stylesheet' },
-        { href: 'vendor/bootstrap-icons/bootstrap-icons.css', rel: 'stylesheet' },
-        { href: 'vendor/boxicons/css/boxicons.min.css', rel: 'stylesheet' },
-        { href: 'vendor/glightbox/css/glightbox.min.css', rel: 'stylesheet' },
-        { href: 'vendor/swiper/swiper-bundle.min.css', rel: 'stylesheet' },
+        { href: '/vendor/animate.css/animate.min.css', rel: 'stylesheet' },
+        { href: '/vendor/bootstrap/css/bootstrap.min.css', rel: 'stylesheet' },
+        { href: '/vendor/bootstrap-icons/bootstrap-icons.css', rel: 'stylesheet' },
+        { href: '/vendor/boxicons/css/boxicons.min.css', rel: 'stylesheet' },
+        { href: '/vendor/glightbox/css/glightbox.min.css', rel: 'stylesheet' },
+        { href: '/vendor/swiper/swiper-bundle.min.css', rel: 'stylesheet' },
 
         // Template Main CSS File
-        { rel: 'stylesheet', href: 'css/style.css' }
+        { rel: 'stylesheet', href: '/css/style.css' }
       ]
     }
   }
