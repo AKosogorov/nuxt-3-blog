@@ -5,9 +5,7 @@
       <div class="container d-flex justify-content-between">
 
         <div class="logo">
-          <h1><a href="index.html"><span>e</span>Business</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
+          <h1><NuxtLink to="/"><span>e</span>Business</NuxtLink></h1>
         </div>
 
         <nav id="navbar" class="navbar">
