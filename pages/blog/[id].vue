@@ -279,11 +279,11 @@
 import type { Ref } from "@vue/reactivity";
 import type { IBlogPost } from "~/components/blog/post/types";
 
-const { id }: { id: string } = useRoute().params
+const { id }: { id?: string } = useRoute().params
 const { data: post }: { data: Ref<IBlogPost> } = await useFetch(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts/${id}`, { key: id })
 
 if (!post.value) {
-  throw createError({ status: 404, message: `Пост с id ${id} не существует` })
+  throw createError({ statusCode: 404, statusMessage: `Пост с id ${id} не существует` })
 }
 </script>
 

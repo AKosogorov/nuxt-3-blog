@@ -201,20 +201,18 @@
 
 <script setup lang="ts">
 import type { IBlogPost } from "~/components/blog/post/types";
-import { reactive } from "@vue/reactivity";
+import type { Ref } from "@vue/reactivity";
 
 const route = useRoute()
 
-const page = computed(() => +route.query.page || 1)
+const page = computed(() => route.query.page ? +route.query.page : 1)
+
 const countOnPage = 10
 const countPages = ref(0)
 
-const blogPosts = reactive<IBlogPost[]>([])
+const { data: blogPosts }: { data: Ref<IBlogPost[]>} = await useFetch(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts`)
 
-const { data } = await useFetch<IBlogPost[]>(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts`)
-blogPosts.push(...data.value)
-
-countPages.value = Math.ceil(blogPosts.length / countOnPage)
+countPages.value = Math.ceil(blogPosts.value.length / countOnPage)
 
 const blogPostsFiltered = computed(() => {
   if (!countPages.value) return []
@@ -222,6 +220,6 @@ const blogPostsFiltered = computed(() => {
   const start = countOnPage * (page.value - 1)
   const end = countOnPage * page.value
 
-  return blogPosts.slice(start, end)
+  return blogPosts.value.slice(start, end)
 })
 </script>
