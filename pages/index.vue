@@ -9,7 +9,7 @@
 
           <div class="carousel-inner" role="listbox">
 
-            <div class="carousel-item active" style="background-image: url(img/hero-carousel/1.jpg)">
+            <div class="carousel-item active" style="background-image: url(/img/hero-carousel/1.jpg)">
               <div class="carousel-container">
                 <div class="container">
                   <h2 class="animate__animated animate__fadeInDown">The Best Business Information </h2>
@@ -19,7 +19,7 @@
               </div>
             </div>
 
-            <div class="carousel-item" style="background-image: url(img/hero-carousel/2.jpg)">
+            <div class="carousel-item" style="background-image: url(/img/hero-carousel/2.jpg)">
               <div class="carousel-container">
                 <div class="container">
                   <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
@@ -29,7 +29,7 @@
               </div>
             </div>
 
-            <div class="carousel-item" style="background-image: url(img/hero-carousel/3.jpg)">
+            <div class="carousel-item" style="background-image: url(/img/hero-carousel/3.jpg)">
               <div class="carousel-container">
                 <div class="container">
                   <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
@@ -71,7 +71,7 @@
               <div class="well-left">
                 <div class="single-well">
                   <a href="#">
-                    <img src="img/about/1.jpg" alt="">
+                    <img src="/img/about/1.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -244,7 +244,7 @@
               <div class="single-team-member">
                 <div class="team-img">
                   <a href="#">
-                    <img src="img/team/1.jpg" alt="">
+                    <img src="/img/team/1.jpg" alt="">
                   </a>
                   <div class="team-social-icon text-center">
                     <ul>
@@ -277,7 +277,7 @@
               <div class="single-team-member">
                 <div class="team-img">
                   <a href="#">
-                    <img src="img/team/2.jpg" alt="">
+                    <img src="/img/team/2.jpg" alt="">
                   </a>
                   <div class="team-social-icon text-center">
                     <ul>
@@ -310,7 +310,7 @@
               <div class="single-team-member">
                 <div class="team-img">
                   <a href="#">
-                    <img src="img/team/3.jpg" alt="">
+                    <img src="/img/team/3.jpg" alt="">
                   </a>
                   <div class="team-social-icon text-center">
                     <ul>
@@ -343,7 +343,7 @@
               <div class="single-team-member">
                 <div class="team-img">
                   <a href="#">
-                    <img src="img/team/4.jpg" alt="">
+                    <img src="/img/team/4.jpg" alt="">
                   </a>
                   <div class="team-social-icon text-center">
                     <ul>
@@ -380,7 +380,7 @@
       <div class="reviews-area">
         <div class="row g-0">
           <div class="col-lg-6">
-            <img src="img/about/2.jpg" alt="" class="img-fluid">
+            <img src="/img/about/2.jpg" alt="" class="img-fluid">
           </div>
           <div class="col-lg-6 work-right-text d-flex align-items-center">
             <div class="px-5 py-5 py-lg-0">
@@ -420,10 +420,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app portfolio-item">
               <div class="single-awesome-project">
                 <div class="awesome-img">
-                  <a href="#"><img src="img/portfolio/1.jpg" alt="" /></a>
+                  <a href="#"><img src="/img/portfolio/1.jpg" alt="" /></a>
                   <div class="add-actions text-center">
                     <div class="project-dec">
-                      <a class="portfolio-lightbox" data-gallery="myGallery" href="img/portfolio/1.jpg">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="/img/portfolio/1.jpg">
                         <h4>Business City</h4>
                         <span>Web Development</span>
                       </a>
@@ -438,10 +438,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
               <div class="single-awesome-project">
                 <div class="awesome-img">
-                  <a href="#"><img src="img/portfolio/2.jpg" alt="" /></a>
+                  <a href="#"><img src="/img/portfolio/2.jpg" alt="" /></a>
                   <div class="add-actions text-center">
                     <div class="project-dec">
-                      <a class="portfolio-lightbox" data-gallery="myGallery" href="img/portfolio/2.jpg">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="/img/portfolio/2.jpg">
                         <h4>Blue Sea</h4>
                         <span>Photosho</span>
                       </a>
@@ -456,10 +456,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-card">
               <div class="single-awesome-project">
                 <div class="awesome-img">
-                  <a href="#"><img src="img/portfolio/3.jpg" alt="" /></a>
+                  <a href="#"><img src="/img/portfolio/3.jpg" alt="" /></a>
                   <div class="add-actions text-center">
                     <div class="project-dec">
-                      <a class="portfolio-lightbox" data-gallery="myGallery" href="img/portfolio/3.jpg">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="/img/portfolio/3.jpg">
                         <h4>Beautiful Nature</h4>
                         <span>Web Design</span>
                       </a>
@@ -474,10 +474,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
               <div class="single-awesome-project">
                 <div class="awesome-img">
-                  <a href="#"><img src="img/portfolio/4.jpg" alt="" /></a>
+                  <a href="#"><img src="/img/portfolio/4.jpg" alt="" /></a>
                   <div class="add-actions text-center">
                     <div class="project-dec">
-                      <a class="portfolio-lightbox" data-gallery="myGallery" href="img/portfolio/4.jpg">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="/img/portfolio/4.jpg">
                         <h4>Creative Team</h4>
                         <span>Web design</span>
                       </a>
@@ -492,10 +492,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
               <div class="single-awesome-project">
                 <div class="awesome-img">
-                  <a href="#"><img src="img/portfolio/5.jpg" alt="" /></a>
+                  <a href="#"><img src="/img/portfolio/5.jpg" alt="" /></a>
                   <div class="add-actions text-center text-center">
                     <div class="project-dec">
-                      <a class="portfolio-lightbox" data-gallery="myGallery" href="img/portfolio/5.jpg">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="/img/portfolio/5.jpg">
                         <h4>Beautiful Flower</h4>
                         <span>Web Development</span>
                       </a>
@@ -510,10 +510,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
               <div class="single-awesome-project">
                 <div class="awesome-img">
-                  <a href="#"><img src="img/portfolio/6.jpg" alt="" /></a>
+                  <a href="#"><img src="/img/portfolio/6.jpg" alt="" /></a>
                   <div class="add-actions text-center">
                     <div class="project-dec">
-                      <a class="portfolio-lightbox" data-gallery="myGallery" href="img/portfolio/6.jpg">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="/img/portfolio/6.jpg">
                         <h4>Night Hill</h4>
                         <span>Photoshop</span>
                       </a>
@@ -601,7 +601,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img src="img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                   <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4>
                   <p>
@@ -614,7 +614,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                   <p>
@@ -627,7 +627,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img src="img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                   <h3>Jena Karlis</h3>
                   <h4>Store Owner</h4>
                   <p>
@@ -640,7 +640,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                   <h3>Matt Brandon</h3>
                   <h4>Freelancer</h4>
                   <p>
@@ -653,7 +653,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img src="img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                   <h3>John Larson</h3>
                   <h4>Entrepreneur</h4>
                   <p>
@@ -689,7 +689,7 @@
                 <div class="single-blog">
                   <div class="single-blog-img">
                     <a href="blog.html">
-                      <img src="img/blog/1.jpg" alt="">
+                      <img src="/img/blog/1.jpg" alt="">
                     </a>
                   </div>
                   <div class="blog-meta">
@@ -721,7 +721,7 @@
                 <div class="single-blog">
                   <div class="single-blog-img">
                     <a href="blog.html">
-                      <img src="img/blog/2.jpg" alt="">
+                      <img src="/img/blog/2.jpg" alt="">
                     </a>
                   </div>
                   <div class="blog-meta">
@@ -753,7 +753,7 @@
                 <div class="single-blog">
                   <div class="single-blog-img">
                     <a href="blog.html">
-                      <img src="img/blog/3.jpg" alt="">
+                      <img src="/img/blog/3.jpg" alt="">
                     </a>
                   </div>
                   <div class="blog-meta">
@@ -890,97 +890,6 @@
       </div><!-- End Contact Section -->
 
     </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer>
-      <div class="footer-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <div class="footer-logo">
-                    <h2><span>e</span>Business</h2>
-                  </div>
-
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                  <div class="footer-icons">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end single footer -->
-            <div class="col-md-4">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <h4>information</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                  </p>
-                  <div class="footer-contacts">
-                    <p><span>Tel:</span> +123 456 789</p>
-                    <p><span>Email:</span> contact@example.com</p>
-                    <p><span>Working Hours:</span> 9am-5pm</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end single footer -->
-            <div class="col-md-4">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <h4>Instagram</h4>
-                  <div class="flicker-img">
-                    <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
-                    <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
-                    <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
-                    <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
-                    <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
-                    <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-area-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="copyright text-center">
-                <p>
-                  &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
-                </p>
-              </div>
-              <div class="credits">
-                <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
-              -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer><!-- End  Footer -->
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
