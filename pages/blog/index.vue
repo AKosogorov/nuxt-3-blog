@@ -178,17 +178,19 @@
         <div class="col-md-8 col-sm-8 col-xs-12">
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <BlogPostCard :post="data[73]" />
+              <BlogPostCard
+                  v-for="post of blogPostsFiltered"
+                  :key="post.id"
+                  :post="post"
+              />
             </div>
 
-            <div class="blog-pagination">
-              <ul class="pagination">
-                <li class="page-item"><a href="#" class="page-link">&lt;</a></li>
-                <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                <li class="page-item"><a href="#" class="page-link">2</a></li>
-                <li class="page-item"><a href="#" class="page-link">3</a></li>
-                <li class="page-item"><a href="#" class="page-link">&gt;</a></li>
-              </ul>
+            <div v-if="countPages > 1" class="blog-pagination">
+              <VPagination
+                  to="/blog"
+                  :current-page="page"
+                  :count="countPages"
+              />
             </div>
           </div>
         </div>
@@ -198,6 +200,28 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useFetch(`/posts`)
-console.log(data.value)
+import type { IBlogPost } from "~/components/blog/post/types";
+import { reactive } from "@vue/reactivity";
+
+const route = useRoute()
+
+const page = computed(() => +route.query.page || 1)
+const countOnPage = 10
+const countPages = ref(0)
+
+const blogPosts = reactive<IBlogPost[]>([])
+
+const { data } = await useFetch<IBlogPost[]>(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts`)
+blogPosts.push(...data.value)
+
+countPages.value = Math.ceil(blogPosts.length / countOnPage)
+
+const blogPostsFiltered = computed(() => {
+  if (!countPages.value) return []
+
+  const start = countOnPage * (page.value - 1)
+  const end = countOnPage * page.value
+
+  return blogPosts.slice(start, end)
+})
 </script>
