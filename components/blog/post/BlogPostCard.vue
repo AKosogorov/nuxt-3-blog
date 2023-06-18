@@ -13,13 +13,15 @@
       </span>
 
       <span class="date-type">
-        <i class="bi bi-calendar"></i>{{ post.createdAt }} 2016-03-05 / 09:10:16
+        <i class="bi bi-calendar"></i>{{ createdAt }}
       </span>
     </div>
 
     <div class="blog-text">
       <h4>
-        <a href="#">{{ post.title }}</a>
+        <NuxtLink :to="`/blog/${post.id}`">
+          {{ post.title }}
+        </NuxtLink>
       </h4>
 
       <p>
@@ -36,11 +38,14 @@
 </template>
 
 <script setup lang="ts">
-import { IBlogPost } from "./types";
+import type { IBlogPost } from "./types";
+import { formatDateTime } from "~/utils/format/date";
 
-defineProps<{
+const props = defineProps<{
   post: IBlogPost
 }>()
+
+const createdAt = computed(() => formatDateTime(props.post.createdAt))
 </script>
 
 <style scoped>
