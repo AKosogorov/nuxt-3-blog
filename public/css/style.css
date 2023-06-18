@@ -365,6 +365,7 @@ div#preloader {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a,
+.navbar .router-link-active,
 .navbar .router-link-exact-active {
   color: #3ec1d5;
 }
