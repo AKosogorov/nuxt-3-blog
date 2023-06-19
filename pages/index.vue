@@ -61,7 +61,6 @@
         </div>
       </div>
       <div class="row">
-        <!-- single-well start-->
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="well-left">
             <div class="single-well">
@@ -71,7 +70,7 @@
             </div>
           </div>
         </div>
-        <!-- single-well end-->
+
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="well-middle">
             <div class="single-well">
@@ -101,7 +100,6 @@
             </div>
           </div>
         </div>
-        <!-- End col-->
       </div>
     </div>
   </div>
@@ -116,7 +114,6 @@
         </div>
       </div>
       <div class="row text-center">
-        <!-- Start Left services -->
         <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="about-move">
             <div class="services-details">
@@ -130,7 +127,6 @@
                 </p>
               </div>
             </div>
-            <!-- end about-details -->
           </div>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-12">
@@ -146,11 +142,9 @@
                 </p>
               </div>
             </div>
-            <!-- end about-details -->
           </div>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <!-- end col-md-4 -->
           <div class=" about-move">
             <div class="services-details">
               <div class="single-services">
@@ -163,11 +157,9 @@
                 </p>
               </div>
             </div>
-            <!-- end about-details -->
           </div>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <!-- end col-md-4 -->
           <div class=" about-move">
             <div class="services-details">
               <div class="single-services">
@@ -180,12 +172,9 @@
                 </p>
               </div>
             </div>
-            <!-- end about-details -->
           </div>
         </div>
-        <!-- End Left services -->
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <!-- end col-md-4 -->
           <div class=" about-move">
             <div class="services-details">
               <div class="single-services">
@@ -198,12 +187,10 @@
                 </p>
               </div>
             </div>
-            <!-- end about-details -->
           </div>
         </div>
-        <!-- End Left services -->
+
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <!-- end col-md-4 -->
           <div class=" about-move">
             <div class="services-details">
               <div class="single-services">
@@ -216,7 +203,6 @@
                 </p>
               </div>
             </div>
-            <!-- end about-details -->
           </div>
         </div>
       </div>
@@ -265,7 +251,7 @@
             </div>
           </div>
         </div>
-        <!-- End column -->
+
         <div class="col-md-3 col-sm-3 col-xs-12">
           <div class="single-team-member">
             <div class="team-img">
@@ -298,7 +284,7 @@
             </div>
           </div>
         </div>
-        <!-- End column -->
+
         <div class="col-md-3 col-sm-3 col-xs-12">
           <div class="single-team-member">
             <div class="team-img">
@@ -331,7 +317,7 @@
             </div>
           </div>
         </div>
-        <!-- End column -->
+
         <div class="col-md-3 col-sm-3 col-xs-12">
           <div class="single-team-member">
             <div class="team-img">
@@ -364,7 +350,6 @@
             </div>
           </div>
         </div>
-        <!-- End column -->
       </div>
     </div>
   </div>
@@ -394,7 +379,6 @@
         </div>
       </div>
       <div class="row wesome-project-1 fix">
-        <!-- Start Portfolio -page -->
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
@@ -406,8 +390,6 @@
       </div>
 
       <div class="row awesome-project-content portfolio-container">
-
-        <!-- portfolio-item start -->
         <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app portfolio-item">
           <div class="single-awesome-project">
             <div class="awesome-img">
@@ -423,9 +405,7 @@
             </div>
           </div>
         </div>
-        <!-- portfolio-item end -->
 
-        <!-- portfolio-item start -->
         <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
           <div class="single-awesome-project">
             <div class="awesome-img">
@@ -441,9 +421,7 @@
             </div>
           </div>
         </div>
-        <!-- portfolio-item end -->
 
-        <!-- portfolio-item start -->
         <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-card">
           <div class="single-awesome-project">
             <div class="awesome-img">
@@ -459,9 +437,7 @@
             </div>
           </div>
         </div>
-        <!-- portfolio-item end -->
 
-        <!-- portfolio-item start -->
         <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
           <div class="single-awesome-project">
             <div class="awesome-img">
@@ -477,9 +453,7 @@
             </div>
           </div>
         </div>
-        <!-- portfolio-item end -->
 
-        <!-- portfolio-item start -->
         <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
           <div class="single-awesome-project">
             <div class="awesome-img">
@@ -495,9 +469,7 @@
             </div>
           </div>
         </div>
-        <!-- portfolio-item end -->
 
-        <!-- portfolio-item start -->
         <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
           <div class="single-awesome-project">
             <div class="awesome-img">
@@ -513,8 +485,6 @@
             </div>
           </div>
         </div>
-        <!-- portfolio-item end -->
-
       </div>
     </div>
   </div>
@@ -599,7 +569,7 @@
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -612,7 +582,7 @@
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -625,7 +595,7 @@
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -638,7 +608,7 @@
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -651,8 +621,7 @@
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
-
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -672,101 +641,13 @@
           </div>
         </div>
         <div class="row">
-          <!-- Start Left Blog -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="single-blog">
-              <div class="single-blog-img">
-                <a href="blog.html">
-                  <img src="/img/blog/1.jpg" alt="">
-                </a>
-              </div>
-              <div class="blog-meta">
-                  <span class="comments-type">
-                    <i class="fa fa-comment-o"></i>
-                    <a href="#">13 comments</a>
-                  </span>
-                <span class="date-type">
-                    <i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-                  </span>
-              </div>
-              <div class="blog-text">
-                <h4>
-                  <a href="blog.html">Assumenda repud eum veniam</a>
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
-                </p>
-              </div>
-              <span>
-                  <a href="blog.html" class="ready-btn">Read more</a>
-                </span>
-            </div>
-            <!-- Start single blog -->
+          <div
+              v-for="post of lastBlogPosts"
+              :key="post.id"
+              class="col-md-4 col-sm-4 col-xs-12"
+          >
+            <BlogPostCard :post="post" />
           </div>
-          <!-- End Left Blog-->
-          <!-- Start Left Blog -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="single-blog">
-              <div class="single-blog-img">
-                <a href="blog.html">
-                  <img src="/img/blog/2.jpg" alt="">
-                </a>
-              </div>
-              <div class="blog-meta">
-                  <span class="comments-type">
-                    <i class="fa fa-comment-o"></i>
-                    <a href="#">130 comments</a>
-                  </span>
-                <span class="date-type">
-                    <i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-                  </span>
-              </div>
-              <div class="blog-text">
-                <h4>
-                  <a href="blog.html">Explicabo magnam quibusdam.</a>
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
-                </p>
-              </div>
-              <span>
-                  <a href="blog.html" class="ready-btn">Read more</a>
-                </span>
-            </div>
-            <!-- Start single blog -->
-          </div>
-          <!-- End Left Blog-->
-          <!-- Start Right Blog-->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="single-blog">
-              <div class="single-blog-img">
-                <a href="blog.html">
-                  <img src="/img/blog/3.jpg" alt="">
-                </a>
-              </div>
-              <div class="blog-meta">
-                  <span class="comments-type">
-                    <i class="fa fa-comment-o"></i>
-                    <a href="#">10 comments</a>
-                  </span>
-                <span class="date-type">
-                    <i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-                  </span>
-              </div>
-              <div class="blog-text">
-                <h4>
-                  <a href="blog.html">Lorem ipsum dolor sit amet</a>
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
-                </p>
-              </div>
-              <span>
-                  <a href="blog.html" class="ready-btn">Read more</a>
-                </span>
-            </div>
-          </div>
-          <!-- End Right Blog-->
         </div>
       </div>
     </div>
@@ -797,7 +678,7 @@
           </div>
         </div>
         <div class="row">
-          <!-- Start contact icon column -->
+
           <div class="col-md-4">
             <div class="contact-icon text-center">
               <div class="single-icon">
@@ -809,7 +690,7 @@
               </div>
             </div>
           </div>
-          <!-- Start contact icon column -->
+
           <div class="col-md-4">
             <div class="contact-icon text-center">
               <div class="single-icon">
@@ -821,7 +702,7 @@
               </div>
             </div>
           </div>
-          <!-- Start contact icon column -->
+
           <div class="col-md-4">
             <div class="contact-icon text-center">
               <div class="single-icon">
@@ -836,15 +717,10 @@
         </div>
         <div class="row">
 
-          <!-- Start Google Map -->
           <div class="col-md-6">
-            <!-- Start Map -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <!-- End Map -->
           </div>
-          <!-- End Google Map -->
 
-          <!-- Start  contact -->
           <div class="col-md-6">
             <div class="form contact-form">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -869,7 +745,6 @@
               </form>
             </div>
           </div>
-          <!-- End Left contact -->
         </div>
       </div>
     </div>
@@ -877,7 +752,11 @@
 </template>
 
 <script setup lang="ts">
+import { BlogPostApi } from "~/api/BlogPostApi";
 
+const blogPosts = await BlogPostApi.get()
+
+const lastBlogPosts = blogPosts.value.slice(-3)
 </script>
 
 <style scoped>

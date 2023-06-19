@@ -22,157 +22,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-4">
-          <div class="page-head-blog">
-            <div class="single-blog-page">
-
-              <form action="#">
-                <div class="search-option">
-                  <input type="text" placeholder="Search...">
-                  <button class="button" type="submit">
-                    <i class="bi bi-search"></i>
-                  </button>
-                </div>
-              </form>
-
-            </div>
-            <div class="single-blog-page">
-
-              <div class="left-blog">
-                <h4>recent post</h4>
-                <div class="recent-post">
-
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-                        <img src="/img/blog/1.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-                        <img src="/img/blog/2.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-                        <img src="/img/blog/3.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-                        <img src="/img/blog/4.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-            <div class="single-blog-page">
-              <div class="left-blog">
-                <h4>categories</h4>
-                <ul>
-                  <li>
-                    <a href="#">Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="#">Project</a>
-                  </li>
-                  <li>
-                    <a href="#">Design</a>
-                  </li>
-                  <li>
-                    <a href="#">wordpress</a>
-                  </li>
-                  <li>
-                    <a href="#">Joomla</a>
-                  </li>
-                  <li>
-                    <a href="#">Html</a>
-                  </li>
-                  <li>
-                    <a href="#">Website</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="single-blog-page">
-              <div class="left-blog">
-                <h4>archive</h4>
-                <ul>
-                  <li>
-                    <a href="#">07 July 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">29 June 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">13 May 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">20 March 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">09 Fabruary 2016</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="single-blog-page">
-              <div class="left-tags blog-tags">
-                <div class="popular-tag left-side-tags left-blog">
-                  <h4>popular tags</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="#">Project</a>
-                    </li>
-                    <li>
-                      <a href="#">Design</a>
-                    </li>
-                    <li>
-                      <a href="#">wordpress</a>
-                    </li>
-                    <li>
-                      <a href="#">Joomla</a>
-                    </li>
-                    <li>
-                      <a href="#">Html</a>
-                    </li>
-                    <li>
-                      <a href="#">Masonry</a>
-                    </li>
-                    <li>
-                      <a href="#">Website</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          <BlogSidebar />
         </div>
 
         <div class="col-md-8 col-sm-8 col-xs-12">
@@ -276,17 +126,23 @@
 </template>
 
 <script setup lang="ts">
-import type { Ref } from "@vue/reactivity";
-import type { IBlogPost } from "~/components/blog/post/types";
+import { BlogPostApi } from "~/api/BlogPostApi";
 
-const { id }: { id?: string } = useRoute().params
-const { data: post }: { data: Ref<IBlogPost> } = await useFetch(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts/${id}`, { key: id })
+definePageMeta({
+  validate: async (route) => {
+    const id = route.params.id
+    if (typeof id === 'string') {
+      return /^\d+$/.test(id)
+    }
+
+    return false
+  }
+})
+
+const { id }: { id?: string } = useRouter().currentRoute.value.params
+const post = await BlogPostApi.getById(id)
 
 if (!post.value) {
   throw createError({ statusCode: 404, statusMessage: `Пост с id ${id} не существует` })
 }
 </script>
-
-<style scoped>
-
-</style>
