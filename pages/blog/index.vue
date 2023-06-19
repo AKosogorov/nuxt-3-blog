@@ -50,8 +50,7 @@
 </template>
 
 <script setup lang="ts">
-import type { IBlogPost } from "~/components/blog/post/types";
-import type { Ref } from "@vue/reactivity";
+import { BlogPostApi } from "~/api/BlogPostApi";
 
 const route = useRoute()
 
@@ -60,7 +59,7 @@ const page = computed(() => route.query.page ? +route.query.page : 1)
 const countOnPage = 10
 const countPages = ref(0)
 
-const { data: blogPosts }: { data: Ref<IBlogPost[]>} = await useFetch(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts`)
+const blogPosts = await BlogPostApi.get()
 
 countPages.value = Math.ceil(blogPosts.value.length / countOnPage)
 

@@ -126,11 +126,21 @@
 </template>
 
 <script setup lang="ts">
-import type { Ref } from "@vue/reactivity";
-import type { IBlogPost } from "~/components/blog/post/types";
+import { BlogPostApi } from "~/api/BlogPostApi";
 
-const { id }: { id?: string } = useRoute().params
-const { data: post }: { data: Ref<IBlogPost> } = await useFetch(`https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts/${id}`, { key: id })
+definePageMeta({
+  validate: async (route) => {
+    const id = route.params.id
+    if (typeof id === 'string') {
+      return /^\d+$/.test(id)
+    }
+
+    return false
+  }
+})
+
+const { id }: { id?: string } = useRouter().currentRoute.value.params
+const post = await BlogPostApi.getById(id)
 
 if (!post.value) {
   throw createError({ statusCode: 404, statusMessage: `Пост с id ${id} не существует` })
